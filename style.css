@@ -810,3 +810,15 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+.contact-name {
+  color: #000000;
+  font-weight: 800;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-name:hover {
+  color: #000000;
+  text-decoration: underline;
+}
