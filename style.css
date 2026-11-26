@@ -822,3 +822,45 @@ footer {
   color: #000000;
   text-decoration: underline;
 }
+
+@media (min-width: 769px) {
+  .header {
+    width: 100%;
+    min-height: 100px;
+    position: relative;
+  }
+
+  .nav-wrap {
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px;
+  }
+
+  .brand {
+    font-size: 28px;
+    font-weight: 900;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .nav a {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .menu {
+    display: none;
+  }
+}
